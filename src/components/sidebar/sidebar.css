@@ -1,0 +1,104 @@
+.sidebar {
+  flex: 1;
+}
+
+.mentor {
+  color: #ffffff;
+  background-image: linear-gradient(to right top, #2d44e1, #e30073);
+  padding: 1rem;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 150px;
+  margin-bottom: 1.5rem;
+}
+.mentor h4 {
+  margin-top: 3.5rem;
+}
+
+.issue {
+  background: #ffffff;
+  padding: 1rem;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 150px;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .9rem;
+}
+
+.issue span{
+  color: #2d44e1;
+  background: #f1f5f9;
+  border-radius: 9px;
+  display: grid;
+  place-items: center;
+}
+.issue span:first-child{
+  width: 60px;
+}
+.issue span.active,
+.issue span:hover{
+  color:#ffffff;
+  background:  #2d44e1;
+  cursor: pointer;
+}
+.ui{
+  margin-left: -4.5rem;
+  width: 60px;
+}
+.ux{
+  margin-left: -3.5rem;
+  width: 50px;
+}
+.enhance{
+  width: 140px;
+}
+.bug{
+  width: 50px;
+}
+.roadmap{
+  background: #ffffff;
+  padding: 1rem;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.path {
+  display: flex;
+  justify-content: space-between;
+}
+.path span:first-child{
+  font-weight: 600;
+}
+.roadmap table {
+  margin-top: 1rem;
+  overflow-x: auto;
+}
+table td div {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  color: #444444;
+  font-weight: 600;
+}
+span.indicator-1 {
+  background: #f8a705;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
+
+span.indicator-2 {
+  background: #9509a1;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
+
+span.indicator-3 {
+  background: #087523;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+}
