@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "../card/Card";
 import "./header.css";
 
 const Header = () => {
@@ -17,9 +18,12 @@ const Header = () => {
           </div>
         </div>
         <div className="header-right">
-        <button className="btn-feed"><span className="las la-plus"></span>Add Feedback</button>
+          <button className="btn-feed">
+            <span className="las la-plus"></span>Add Feedback
+          </button>
         </div>
       </div>
+      <Card />
     </div>
   );
 };

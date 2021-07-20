@@ -1,0 +1,48 @@
+.card-wrapper {
+  max-width: 800px;
+  margin-top: 0.8rem;
+  background: #ffffff;
+  padding: 1.5rem;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.count-wrapper {
+  display: flex;
+}
+.count {
+  display: flex;
+  flex-direction: column;
+  background: #f1f5f9;
+  padding: 0.2rem;
+  height: 45px;
+  border-radius: 5px;
+}
+.count-wrapper h3 {
+  margin-left: 2rem;
+  color: #0c113d;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.search {
+  max-width: 700px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.search-stack p {
+  color: #555555;
+}
+.comment-count {
+  margin-left: 0.3rem;
+}
+.comment {
+  margin-left: 4rem;
+}
+.enhance {
+  margin-left: 3.7rem;
+  color: #2d44e1;
+  background: #f1f5f9;
+  padding: 0.2rem;
+  height: 45px;
+  border-radius: 5px;
+  font-weight: bolder;
+}

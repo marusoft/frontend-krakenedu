@@ -3,12 +3,12 @@
   flex: 4;
 }
 .header-wrapper{
-  height: 13%;
+  height: 10%;
   padding: 0rem 1.25em;
   border-radius: 8px;
-  background-color: #111C61;
+  background-color: #0c113d;
   color: #DEDFDE;
-  width: 700px;
+  width: 800px;
   display: flex;
   align-items: center;
   justify-content: space-between;
