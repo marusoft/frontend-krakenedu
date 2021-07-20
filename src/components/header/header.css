@@ -2,3 +2,40 @@
   margin-left: 1.5rem;
   flex: 4;
 }
+.header-wrapper{
+  height: 13%;
+  padding: 0rem 1.25em;
+  border-radius: 8px;
+  background-color: #111C61;
+  color: #DEDFDE;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-left{
+  display: flex;
+}
+.la-award{
+  font-size: 1.1rem;
+}
+.sort{
+  margin-left: 1.5rem;
+}
+span.suggest, span.vote{
+  font-weight: 600;
+  margin-left: .7rem;
+}
+.la-angle-down{
+  font-size: .8rem;
+  margin-left: .3rem;
+  font-weight: bolder;
+}
+.btn-feed{
+  color: #ffffff;
+  background: #9509a1;
+  border: none;
+  outline: none;
+  padding: .8rem;
+  border-radius: 8px;
+}
