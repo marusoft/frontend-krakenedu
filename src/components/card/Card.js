@@ -7,7 +7,7 @@ const card = () => {
       <div className="card-wrapper">
         <div className="count-wrapper">
           <div className="count">
-            <span className="la la-angle-down"></span>
+            <span className="la la-angle-up"></span>
             <span>112</span>
           </div>
           <h3>Add tags for solutions</h3>
@@ -28,7 +28,7 @@ const card = () => {
       <div className="card-wrapper">
         <div className="count-wrapper">
           <div className="count">
-            <span className="la la-angle-down"></span>
+            <span className="la la-angle-up"></span>
             <span>112</span>
           </div>
           <h3>Add a dark theme option</h3>
@@ -49,7 +49,7 @@ const card = () => {
       <div className="card-wrapper">
         <div className="count-wrapper">
           <div className="count">
-            <span className="la la-angle-down"></span>
+            <span className="la la-angle-up"></span>
             <span>112</span>
           </div>
           <h3>Q&A within the challenge hubs</h3>
@@ -70,7 +70,7 @@ const card = () => {
       <div className="card-wrapper">
         <div className="count-wrapper">
           <div className="count">
-            <span className="la la-angle-down"></span>
+            <span className="la la-angle-up"></span>
             <span>112</span>
           </div>
           <h3>Add tags for solutions</h3>
@@ -91,7 +91,7 @@ const card = () => {
       <div className="card-wrapper">
         <div className="count-wrapper">
           <div className="count">
-            <span className="la la-angle-down"></span>
+            <span className="la la-angle-up"></span>
             <span>112</span>
           </div>
           <h3>Add tags for solutions</h3>
@@ -112,7 +112,7 @@ const card = () => {
       <div className="card-wrapper">
         <div className="count-wrapper">
           <div className="count">
-            <span className="la la-angle-down"></span>
+            <span className="la la-angle-up"></span>
             <span>112</span>
           </div>
           <h3>Add tags for solutions</h3>
