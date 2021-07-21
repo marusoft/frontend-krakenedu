@@ -4,6 +4,7 @@ import "./card.css";
 const card = () => {
   return (
     <Fragment>
+    <div className="card-container">
       <div className="card-wrapper">
         <div className="count-wrapper">
           <div className="count">
@@ -43,7 +44,7 @@ const card = () => {
               <span className="comment-count">2</span>
             </div>
           </div>
-          <span className="enhance">Enhancement</span>
+          <span className="enhance">Feature</span>
         </div>
       </div>
       <div className="card-wrapper">
@@ -64,7 +65,7 @@ const card = () => {
               <span className="comment-count">2</span>
             </div>
           </div>
-          <span className="enhance">Enhancement</span>
+          <span className="enhance">Feature</span>
         </div>
       </div>
       <div className="card-wrapper">
@@ -127,8 +128,9 @@ const card = () => {
               <span className="comment-count">2</span>
             </div>
           </div>
-          <span className="enhance">Enhancement</span>
+          <span className="enhance">Bug</span>
         </div>
+      </div>
       </div>
     </Fragment>
   );
